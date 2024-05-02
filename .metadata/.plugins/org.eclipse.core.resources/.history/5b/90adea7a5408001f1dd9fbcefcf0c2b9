@@ -1,0 +1,39 @@
+package com.spring1.dao;
+
+import java.util.List;
+
+import com.spring1.dto.Sample;
+
+public class SampleDAOImpl implements SampleDAO{
+
+	@Override
+	public List<Sample> getSampleList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Sample getSample(int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insSample(Sample sample) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updSample(Sample sample) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delSample(Sample sample) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

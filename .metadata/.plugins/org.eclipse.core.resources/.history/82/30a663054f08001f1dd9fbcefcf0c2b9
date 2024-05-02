@@ -1,0 +1,12 @@
+package com.spring1.dto;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class Sample2 {
+	private int num;
+	private String title;
+	private String res;
+}
